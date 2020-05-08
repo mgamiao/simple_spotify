@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spotify</title>
+    <link rel="icon" href="assets/icon.png" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body bgcolor="#D3D3D3">
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="#" class="logo"><img src="assets/logo.png"></a></li>
+                <li><a href="#" class="link1">Premium</a></li>
+                <li><a href="#" class="link">Help</a></li>
+                <li><a href="#" class="link">Download</a></li>
+                <li><span class="link2">|</span></li>
+                <li><img src="assets/user.png" class="userpic"></li>
+                <li><a href="#" class="link">Profile</a></li>
+            </ul>
+        </div> <!--end navbar-->
+        <div class="albums">
+                <table border="0" cellpadding="5">
+                    <tr>
+                        <td>
+                            <img id="myImg" src="assets/album1.jpg" class="thumbnail">
+                        </td>
+                        <td>
+                            <img id="myImg2" src="assets/album2.jpg" class="thumbnail">
+                        </td>
+                        <td>
+                                <img id="myImg3" src="assets/album3.jpg" class="thumbnail">
+                            </td>
+                            <td>
+                                <img id="myImg4" src="assets/album4.jpg" class="thumbnail">
+                            </td>
+                    </tr>
+                    <tr align="center">
+                        <td class="name">
+                            The 1975
+                        </td>
+                        <td class="name">
+                                Arctic Monkeys
+                        </td>
+                        <td class="name">
+                                Sam Smith
+                            </td>
+                            <td class="name">
+                                    Taylor Swift
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="myImg5"src="assets/album5.jpg" class="thumbnail">
+                        </td>
+                        <td>
+                            <img id="myImg6"src="assets/album6.jpg" class="thumbnail">
+                        </td>
+                        <td>
+                            <img id="myImg7"src="assets/album7.jpg" class="thumbnail">
+                        </td>
+                        <td>
+                            <img id="myImg8"src="assets/album8.jpg" class="thumbnail">
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td class="name">
+                            One Direction
+                        </td>
+                        <td class="name">
+                            The Beatles
+                        </td>
+                        <td class="name">
+                            Rucelj Pugeda
+                        </td>
+                        <td class="name">
+                            Chainsmokers
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="myImg9"src="assets/album9.jpg" class="thumbnail">
+                        </td>
+                        <td>
+                            <img id="myImg10"src="assets/album10.jpg" class="thumbnail">
+                        </td>
+                        <td>
+                            <img id="myImg11"src="assets/album11.jpg" class="thumbnail">
+                        </td>
+                        <td>
+                            <img id="myImg12"src="assets/album12.jpg" class="thumbnail">
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td class="name">
+                            Ed Sheeran
+                        </td>
+                        <td class="name">
+                            Kuya Wil
+                        </td>
+                        <td class="name">
+                            Yellowcard
+                        </td>
+                        <td class="name">
+                            Meghan Trainor
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img id="myImg13"src="assets/album13.jpg" class="thumbnail">
+                        </td>
+                        <td>
+                            <img id="myImg14"src="assets/album14.jpg" class="thumbnail">
+                        </td>
+                        <td>
+                            <img id="myImg15"src="assets/album15.jpg" class="thumbnail">
+                        </td>
+                        <td>
+                            <img id="myImg16"src="assets/album16.jpg" class="thumbnail">
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td class="name">
+                            John Legend
+                        </td>
+                        <td class="name">
+                            Adele
+                        </td>
+                        <td class="name">
+                            Oasis
+                        </td>
+                        <td class="name">
+                            Savage Garden
+                        </td>
+                    </tr>
+                </table>
+        </div> <!--end albums-->
+        <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+        </div><!--end modal-->
+        <div class="premium" align="center">
+            <h1>Why Go Premium?</h1>
+            <table border="0">
+                <tr>
+                    <td>
+                        <img src="assets/icon1.JPG" class="premium_icon">
+                    </td>
+                    <td>
+                        <br><br><br><b>Download music.</b>
+                        <br>
+                        Listen anywhere.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="assets/icon2.JPG" class="premium_icon">
+                    </td>
+                    <td>
+                        <br><br><br><br><b>No ads.</b>
+                        <br>
+                        Enjoy nonstop music.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="assets/icon3.JPG" class="premium_icon">
+                    </td>
+                    <td>
+                        <br><br><br><b>Play any song.</b>
+                        <br>
+                        Even on mobile.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="assets/icon4.JPG" class="premium_icon">
+                    </td>
+                    <td>
+                        <br><br><br><br><b>Unlimited skips.</b>
+                        <br>
+                        Just hit next.
+                    </td>
+                </tr>
+            </table>
+        </div><!--end premium-->
+        <div class="spotcalendar" align="center">
+            <table border="0" cellpadding="15px">
+                <tr align="center">
+                    <td>
+                        <b class="spotify_offer">Spotify Free</b> P0/month
+                    </td>
+                </tr>
+            </table>
+            <table border="0" cellpadding="10px" width="300px" class="marg_get">
+                <tr align="center">
+                    <td class="get_free" href="index.html">
+                        <a href="#" style="text-decoration: none; color: #1ed760;">GET FREE</a>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr  align="center">
+                    <td>
+                        <b class="spotify_offer">Spotify Premium</b> P129/month
+                    </td>
+                </tr>
+            </table>
+            <table border="0" cellpadding="10px" width="300px" class="marg_get1">
+                <tr align="center">
+                    <td class="get_premium">
+                        <a href="#" style="text-decoration: none; color: white;">GET PREMIUM</a>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr  align="center">
+                    <td class="develop">
+                        DEVELOPED BY: <b>MIGUEL FRANCISCO GAMIAO</b>
+                        <br>
+                        <i>October 16, 2019</i>
+                    </td>
+                </tr>
+            </table>
+        </div><!--end spotcalendar-->
+        <div class="footer">
+            <table border="0" class="footer_des" cellpadding="10px">
+                <tr>
+                    <td align="right">
+                        <br>
+                        Philippines <img src="assets/ph.png" class="ph_flag">
+                        <br>
+                        &copy; 2019 Spotify AB
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Legal Cookies About Ads
+                        <br><br>
+                    </td>
+                </tr>
+            </table>
+        </div><!--end footer-->
+    </div><!--end container-->
+    <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            
+            var img = document.getElementById("myImg2");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg3");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg4");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg5");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg6");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg7");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg8");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg9");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg10");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg11");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg12");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg13");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg14");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg15");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg16");
+            var modalImg = document.getElementById("img01");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+              modal.style.display = "none";
+            }
+    </script><!--end script-->
+</body>
+</html>
